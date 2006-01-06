@@ -1,12 +1,12 @@
 Summary:	X.org input driver for Union Reality UR-F98 headtracker
 Summary(pl):	Sterownik wej¶ciowy X.org dla trackera Union Reality UR-F98
 Name:		xorg-driver-input-ur98
-Version:	1.0.0.3
+Version:	1.0.0.5
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/driver/xf86-input-ur98-%{version}.tar.bz2
-# Source0-md5:	c98105c7e7f1ca121809bf5920b6e9bf
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-input-ur98-%{version}.tar.bz2
+# Source0-md5:	7cdfe15fdd8e04e3d440b7fdd96bf811
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_libdir}/xorg/modules/input/ur98_drv.so
 %{_mandir}/man4/ur98.4*
