@@ -1,5 +1,5 @@
 Summary:	X.org input driver for Union Reality UR-F98 headtracker
-Summary(pl.UTF-8):   Sterownik wejściowy X.org dla trackera Union Reality UR-F98
+Summary(pl.UTF-8):	Sterownik wejściowy X.org dla trackera Union Reality UR-F98
 Name:		xorg-driver-input-ur98
 Version:	1.1.0
 Release:	0.1
